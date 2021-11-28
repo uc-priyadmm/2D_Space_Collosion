@@ -15,18 +15,14 @@ Clone the project
   git clone https://github.com/uc-priyadmm/2D_Space_Collision
 ```
 
-Go to the project directory
+Host the Webpage Locally using your prefered server.
+
+
+Alternatively, Run using VSCode LIVE SERVE EXTENSION
 
 ```bash
-  cd rickandmorty-cli
-```
-
-Install dependencies
-
-```bash
- brew install graphicsmagick
- npm install -g img2ascii
-```
+ https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
+ ```
 
 Execute the script
 
