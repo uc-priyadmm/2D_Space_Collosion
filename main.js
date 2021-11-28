@@ -1,3 +1,5 @@
+// A Mayank Mani Productions Original
+
 var COL = function() {
   var canvas = document.querySelector('canvas');
   var ctx = canvas.getContext('2d');
@@ -20,7 +22,7 @@ var COL = function() {
     return [v, theta];
   }
 
-  // POINT
+  // Point, The function point is given its random attributes here and this is how paricles always apper on the screen in random location.
   function Point(id, radius) {
     this.id = id;
     this.x = 0;
@@ -43,15 +45,14 @@ var COL = function() {
     } while ( this.isCollidingWithWall() || this.pointsCollidingWith().length > 0 )
   }
   
-  Point.prototype.isCollidingWithVerticalWall = function() {
+  Point.prototype.isCollidingWithVerticalWall = function() { //Vertical wall collision
     var w = canvas.width;
     if ( this.x < this.radius || this.x > w - this.radius  )
       return true;
     return false;
   }
 
-  Point.prototype.isCollidingWithHorizontalWall = function() {
-    var h = canvas.height;
+  Point.prototype.isCollidingWithHorizontalWall = function() { //Horizontal wall collision 
     if ( this.y < this.radius || this.y > h - this.radius )
       return true;
     return false;
