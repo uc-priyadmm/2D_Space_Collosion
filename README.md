@@ -1,18 +1,18 @@
 # 2D_Space_Collosion
 Simulation of perfectly elastic collisions in 2D space.
-# Rick and Morty CLI  🛸 🌍
 
 ## Demo
 
 
 
   ![](Project3.gif)
+  
 ## Run Locally
 
 Clone the project
 
 ```bash
-  git clone https://github.com/uc-priyadmm/rickandmorty-cli
+  git clone https://github.com/uc-priyadmm/2D_Space_Collision
 ```
 
 Go to the project directory
