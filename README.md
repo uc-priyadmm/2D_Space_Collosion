@@ -12,7 +12,7 @@ Simulation of perfectly elastic collisions in 2D space. The program is a simulat
 
 Particles go woohoo. ( in x and y coordinates)
 
-The actual program is far complex than that, using canvas we can detect particle position in all directions by mapping the x and y coordinates to 'to-x and to-y" and generating an animation. The code uses a closed system with 4 walls and particles can collide between one another or the walls. This is just a very stupid version of https://github.com/mreinstein/collision-2d and many other projects which go into the detail of these things. I believe I have a basic understanding of this topic.
+The actual program is far complex than that, using canvas we can detect particle position in all directions by mapping the x and y coordinates to 'to-x and to-y" and generating an animation. The code uses a system with 2 walls and particles can collide between one another or the walls. This is just a very stupid version of https://github.com/mreinstein/collision-2d and many other projects which go into the detail of these things. I believe I have a basic understanding of this topic.
 
 ## Demo
 
